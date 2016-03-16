@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: hello-world-app
+
+server:
+  port: 58081
