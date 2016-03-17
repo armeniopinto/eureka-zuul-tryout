@@ -1,6 +1,2 @@
-spring:
-  application:
-    name: time-app
-
 server:
   port: 58082

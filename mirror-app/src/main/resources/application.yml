@@ -1,6 +1,2 @@
-spring:
-  application:
-    name: mirror-app
-
 server:
   port: 58083
