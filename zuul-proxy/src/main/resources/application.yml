@@ -1,3 +1,5 @@
 zuul:
   routes:
     hello-world-app: /hello-world-app/**
+    time-app: /time-app/**
+    mirror-app: /mirror-app/**
