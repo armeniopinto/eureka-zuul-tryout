@@ -4,7 +4,7 @@
  * Copyright (C) 2016 by Arménio Pinto.
  * Please read LICENSE.TXT for the license details.
  */
-package com.armeniopinto.time;
+package com.armeniopinto.zuul.proxy;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
