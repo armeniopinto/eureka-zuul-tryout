@@ -6,7 +6,7 @@ Netflix uses [Zuul](https://github.com/Netflix/zuul) and [Eureka](https://github
 
 Pivotal claims that [Spring Cloud](http://projects.spring.io/spring-cloud/) is the most straightforward way to use Zuul and Eureka.
 
-I decide to give it a try!
+I decided to give it a try!
 
 ## Instructions
 
@@ -22,8 +22,8 @@ Browse to [localhost:8761/](http://localhost:8761/) to access the Eureka console
 
 Finally, start the [zuul-proxy](https://github.com/armeniopinto/eureka-zuul-tryout/tree/master/zuul-proxy). Zuul will find Eureka, query the registered services and automagically route any requests!
 
-For example, [localhost:8080/hello-world-app/hello](localhost:8080/hello-world-app/hello) will automatically route requests to (localhost:58081/hello)!
+For example, [localhost:8080/hello-world-app/hello](http://localhost:8080/hello-world-app/hello) will automatically route requests to [localhost:58081/hello](http://localhost:58081/hello)!
 
 ## Conclution
 
-Pivotal isn't exaggerating! It's really simple to turn any Spring Boot service into an Eureka client and to create an Eureka server or a Zuul proxy. All it takes is a single annotation and very little configuration.
+Pivotal isn't exaggerating! It's really simple to turn any Spring Boot service into an Eureka client and to create an Eureka server or a Zuul proxy. All it takes is a single annotation and very little configuration, check the code for yourself.
