@@ -24,6 +24,6 @@ Finally, start the [zuul-proxy](https://github.com/armeniopinto/eureka-zuul-tryo
 
 For example, [localhost:8080/hello-world-app/hello](http://localhost:8080/hello-world-app/hello) will automatically route requests to [localhost:58081/hello](http://localhost:58081/hello)!
 
-## Conclution
+## Conclusion
 
 Pivotal isn't exaggerating! It's really simple to turn any Spring Boot service into an Eureka client and to create an Eureka server or a Zuul proxy. All it takes is a single annotation and very little configuration, check the code for yourself.
